@@ -1,0 +1,128 @@
+.mainprofilebox {
+    background: #fbfbfb;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+
+.mainprofileboximg img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 7px;
+    border: 2px solid #b11c3f;
+}
+.namedetail {
+    margin-left: 72px;
+    margin-top: 10px;
+    padding-top: 3px;
+}
+.namedetail h2 {
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.myprofile-section label {
+    font-weight: 400;
+}
+.profilelinks {
+    background: #fbfbfb;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+ul.promenue {
+    list-style: none;
+    padding: 0;
+}
+
+.promenue li a {
+    display: block;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.promenue li a i {
+    float: left;
+    color: #5a6374;
+    width: 40px;
+    font-size: 22px;
+}
+.box-body {
+    background: #fbfbfb;
+    padding: 25px 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+.box-body h1 {
+    margin: 0;
+    font-size: 16px;
+    padding: 0px 15px 20px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    height: 40px;
+    border-radius: 0px;
+    padding: 0px 5px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 100% !important;
+
+}
+
+.genderradio .recontainer {
+    display: block;
+    position: relative !important;
+    padding-left: 35px;
+    padding-right: 20px;
+    float: left;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #727272;
+    font-weight: 600;
+}
+.genderradio .recontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.genderradio .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: none;
+}
+.genderradio .recontainer input:checked ~ .checkmark {
+    background-color: #b11c3f;
+}
+
+.updateprofilebtn .btnuprfo {
+    color: #fff;
+    background: #b11c3f;
+    padding: 10px 15px;
+    font-size: 12.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 0;
+}
