@@ -3,6 +3,7 @@ import classes from './OrderPage.module.css'
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { NavLink } from 'react-router-dom';
 import { Button } from '@mui/material';
+import NavigationBar from '../Layout/NavigationBar';
 const OrderPage = () => {
 
     const [orders, setOrders] = useState([]);
@@ -40,7 +41,7 @@ const OrderPage = () => {
         <div className="row">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3 col-sm-4">
+                    {/* <div className="col-md-3 col-sm-4">
                     <div className={classes['profilelinks']}>
                     <ul className={classes["promenue"]}>
                         <li>
@@ -57,7 +58,8 @@ const OrderPage = () => {
                         </li>
                     </ul>
                 </div>
-                    </div>
+                    </div> */}
+                    <NavigationBar />
                     <div className="col-md-9 col-sm-8">
                         <div className={classes['switchorderlist']}>Order Listing {orderCount > 0 ? `${orderCount}` : ''}</div>
                         <div className="table-responsive">
